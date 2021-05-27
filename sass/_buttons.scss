@@ -1,0 +1,29 @@
+.div_buttons{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+
+    border: 3px solid $colorDark;
+    width: 600px;
+    height: 200px;
+    position: relative;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.div_buttons__btn{
+    border: 3px solid $colorDark;
+    border-radius:10px;
+    height: 100px;
+    width: 200px;
+    font-size:1.3em;
+    cursor: pointer;
+}
+
+.div_buttons__btn-dark{
+    background-color:$colorDark;
+    color: $colorLight;
+    border-color: $colorLight;
+}
