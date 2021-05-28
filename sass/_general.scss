@@ -1,6 +1,11 @@
+* {
+	box-sizing: border-box;
+}
+
 .body{
     padding: 10px;
     background-color: rgb(202, 212, 226);
+    transition: 0.25s ease-in;
 }
 
 .title{
